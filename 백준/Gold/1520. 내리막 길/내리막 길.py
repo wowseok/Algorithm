@@ -7,7 +7,7 @@ def dfs(x, y):
     if x == M - 1 and y == N - 1: #목적지에 도착했을 때 1을 리턴하여 더한다.
         return 1
     
-    if dp[x][y] != -1: # 이미 탐색하였다면 
+    if dp[x][y] != -1: # 이미 탐색 하였으면
         return dp[x][y]
         
     dp[x][y] = 0
