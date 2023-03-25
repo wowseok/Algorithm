@@ -24,6 +24,6 @@ while start <= end:
         end = mid - 1 # 더 적게 잘라야한다.
 
 #print(cnt)
-print(start-1)
+print(end)
         
         
