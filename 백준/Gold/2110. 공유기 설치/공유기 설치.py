@@ -9,7 +9,7 @@ for i in range(N):
     arr.append(int(input()))
     
 arr.sort()
-
+ 
 start = 1 #최소거리
 end = arr[-1] - arr[0] #최대거리
 answer = 0
